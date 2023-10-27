@@ -1,0 +1,132 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;700&display=swap");
+
+html {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+body {
+  font-family: "Montserrat";
+  color: #393d41;
+  height: 1.2rem;
+  line-height: 1.65;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+
+  box-sizing: border-box;
+  background-color: black;
+}
+
+#sfondo {
+  background-image: url(/images/banner.jpg);
+  background-size: auto;
+  margin: -20px;
+  font-family: "Montserrat";
+  text-align: center;
+}
+#sfondo h1 {
+  color: #25a2c3;
+  line-height: 1.5;
+  font-size: bold;
+  font-family: "Montserrat";
+}
+
+#bottone {
+  background-color: #f04c2f;
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+#spinta h3 {
+  color: #25a2c3;
+  line-height: 1.5;
+  font-size: bold;
+  font-family: "Montserrat";
+}
+
+#fotorotonda {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+aside {
+  border: #e22d0e;
+  background-color: #e22d0e;
+  text-align: center;
+}
+
+#red h2 {
+  font-size: 2em;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#red {
+  color: white;
+}
+
+#foto1 {
+  border: 3px solid #dee1e3;
+  max-width: 100%;
+  font-family: "Montserrat"
+}
+#foto1 h3 {
+  color: #25a2c3;
+  font-family: "Montserrat" (bold);
+  line-height: 1.5;
+}
+#immagine1 {
+  max-width: 100%;
+}
+#foto2 {
+  border: 3px solid #dee1e3;
+  max-width: 100%;
+  font-family: "Montserrat"
+}
+#foto2 h3 {
+  color: #25a2c3;
+  font-family: "Montserrat" (bold);
+  line-height: 1.5;
+}
+#immagine2 {
+  max-width: 100%;
+}
+#foto3 {
+  border: 3px solid #dee1e3;
+  max-width: 100%;
+  font-family: "Montserrat"
+}
+#foto3 h3 {
+  color: #25a2c3;
+  font-family: "Montserrat" (bold);
+  line-height: 1.5;
+}
+#immagine3 {
+  max-width: 100%;
+}
+#footer {
+  background-color: #25a2c3;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 0.9em;
+}
+hr {
+  width: 15%;
+}
